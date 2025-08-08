@@ -1,4 +1,8 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "http://localhost/"
+languageCode = "zh-cn"
+title = "tzw 的博客"
 theme = "ananke"
+
+[params]
+  description = "我的个人博客（Hugo + Ananke）"
+

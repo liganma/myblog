@@ -2,7 +2,7 @@
 title = "第二篇测试的文章标题"
 subtitle = "副标题（可选）"
 description = "文章的简短描述"
-date = 2025-08-09T
+date = 2025-08-09
 draft = false
 
 author = "你的名字"

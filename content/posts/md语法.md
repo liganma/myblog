@@ -1,6 +1,6 @@
 +++
 title = "md的一些语法"
-subtitle = "副标题（可选）"
+subtitle = "没有副标题"
 description = "文章的简短描述"
 date = 2025-08-09
 draft = false

@@ -1,8 +1,7 @@
-baseURL = "http://localhost/"
 languageCode = "zh-cn"
 title = "tzw 的博客"
 theme = "ananke"
-
+baseURL = "https://tzwblog.top/"
 [params]
   description = "我的个人博客（Hugo + Ananke）"
   

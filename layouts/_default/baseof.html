@@ -52,7 +52,7 @@
       {{ template "_internal/google_analytics.html" . }}
     {{ end }}
 	{{ block "head" . }}{{ partials.Include "head-additions.html" . }}{{ end }}
-  <link rel="stylesheet" href="/css/custom.css">
+  <link rel="stylesheet" href="/css/custom.css" media="all">
   </head>
 
   {{- $environment := hugo.Environment | compare.Default "production" -}}

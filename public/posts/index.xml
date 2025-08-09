@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on tzw 的博客</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://tzwblog.top:1313/posts/</link>
     <description>Recent content in Posts on tzw 的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 09 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://tzwblog.top:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>第二篇测试的文章标题</title>
-      <link>http://localhost:1313/posts/second/</link>
+      <link>https://tzwblog.top:1313/posts/second/</link>
       <pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/second/</guid>
+      <guid>https://tzwblog.top:1313/posts/second/</guid>
       <description>&lt;p&gt;第二篇测试，怎么样设置成多级展示呢？&lt;/p&gt;&#xA;&lt;p&gt;只有点击后才显示全部由内容，以及只显示标题&lt;/p&gt;</description>
     </item>
     <item>
       <title>第一篇测试</title>
-      <link>http://localhost:1313/posts/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%B5%8B%E8%AF%95/</link>
+      <link>https://tzwblog.top:1313/posts/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%B5%8B%E8%AF%95/</link>
       <pubDate>Sat, 09 Aug 2025 02:57:18 +0800</pubDate>
-      <guid>http://localhost:1313/posts/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%B5%8B%E8%AF%95/</guid>
+      <guid>https://tzwblog.top:1313/posts/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%B5%8B%E8%AF%95/</guid>
       <description>&lt;p&gt;这是一篇用来测试的我网站是否能够正常发布博客。&#xA;git pull &amp;ndash;no-rebase origin master&lt;/p&gt;&#xA;&lt;p&gt;2333333&lt;/p&gt;&#xA;&lt;p&gt;现在写入&#xA;title = &amp;ldquo;文章标题&amp;rdquo;&#xA;subtitle = &amp;ldquo;副标题（可选）&amp;rdquo;&#xA;description = &amp;ldquo;文章的简短描述&amp;rdquo;&#xA;date = 2025-08-09T12:00:00+08:00&#xA;lastmod = 2025-08-09T12:00:00+08:00&#xA;draft = false&lt;/p&gt;&#xA;&lt;p&gt;author = &amp;ldquo;你的名字&amp;rdquo;&#xA;categories = [&amp;ldquo;分类1&amp;rdquo;, &amp;ldquo;分类2&amp;rdquo;]&#xA;tags = [&amp;ldquo;标签1&amp;rdquo;, &amp;ldquo;标签2&amp;rdquo;]&#xA;slug = &amp;ldquo;custom-url&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;featuredImage = &amp;ldquo;/images/cover.jpg&amp;rdquo;&#xA;featuredImagePreview = &amp;ldquo;/images/thumb.jpg&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;toc = true&#xA;autoCollapseToc = true&#xA;math = true&lt;/p&gt;&#xA;&lt;p&gt;keywords = [&amp;ldquo;关键字1&amp;rdquo;, &amp;ldquo;关键字2&amp;rdquo;]&#xA;series = [&amp;ldquo;专栏名&amp;rdquo;]&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hello World</title>
-      <link>http://localhost:1313/posts/hello-world/</link>
+      <link>https://tzwblog.top:1313/posts/hello-world/</link>
       <pubDate>Sat, 09 Aug 2025 02:29:55 +0800</pubDate>
-      <guid>http://localhost:1313/posts/hello-world/</guid>
+      <guid>https://tzwblog.top:1313/posts/hello-world/</guid>
       <description>&lt;p&gt;caogao&lt;/p&gt;</description>
     </item>
   </channel>

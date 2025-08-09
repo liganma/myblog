@@ -1,0 +1,17 @@
+html, body {
+  height: 100%;
+}
+body {
+  background-image: url('/images/bg.jpg');  /* 你的背景图路径 */
+  background-size: cover;                   /* 铺满整个屏幕 */
+  background-position: center;              /* 居中显示 */
+  background-attachment: fixed;             /* 滚动时背景固定（可选） */
+  background-repeat: no-repeat;              /* 不平铺 */
+}
+
+/* 可选：给正文区域加半透明底色，增强可读性 */
+main, .container, .pa4 {
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 12px;
+  padding: 1rem;
+}

@@ -4,7 +4,7 @@ title: "首页"
 
 欢迎来到我的博客！
 
-<style>
+<!-- <style>
   /* 背景全站生效 */
   html, body {
     height: 100%;
@@ -23,5 +23,5 @@ title: "首页"
     border-radius: 12px;
     padding: 1rem;
   }
-</style>
+</style> -->
 

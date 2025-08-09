@@ -2,14 +2,12 @@
 title = "第二篇测试的文章标题"
 subtitle = "副标题（可选）"
 description = "文章的简短描述"
-date = 2025-08-09T12:00:00+08:00
-lastmod = 2025-08-09T12:00:00+08:00
+date = 2025-08-09T
 draft = false
 
 author = "你的名字"
 categories = ["分类1", "分类2"]
 tags = ["标签1", "标签2"]
-slug = "custom-url"
 
 
 toc = true

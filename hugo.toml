@@ -5,4 +5,8 @@ theme = "ananke"
 
 [params]
   description = "我的个人博客（Hugo + Ananke）"
+  
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
 

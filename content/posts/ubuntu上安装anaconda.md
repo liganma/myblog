@@ -1,6 +1,12 @@
++++
+title = '安装CUDA'
+date = 2025-08-29T02:57:18+08:00
+draft = false
++++
+
 ### [在ubuntu上安装typora](https://typora.io/#linux)
 [在ubuntu上安装typora](https://typora.io/#linux)
-###安装CUDA
+### 安装CUDA
 [cuda toolkits 12.8官网]（https://developer.nvidia.com/cuda-12-8-0-download-archive?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=24.04&target_type=deb_local）
 不要直接安装最新版本，可以先去看看pytorch支持到什么版本在选择；
 cuda驱动有以下两种：
@@ -17,7 +23,7 @@ sudo apt --fix-broken install
 sudo dpkg --configure -a
 再重新安装
 sudo ubuntu-drivers autoinstall
-
+```
 ###安装cudnn
 [官网]（https://developer.nvidia.com/cudnn-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=24.04&target_type=deb_local&Configuration=Full）
 
@@ -29,9 +35,10 @@ tensorflow-gpu 这个包 在 2.11 之后就被官方废弃了
 ```python
 # 安装官方 GPU 版（会自动拉 CUDA/cuDNN 运行时）
 pip install --upgrade "tensorflow[and-cuda]"  # TF ≥2.15 推荐
-
+```
 ###安装pytorch
-[pytorch官](https://pytorch.org/)
+
+[pytorch官wang](https://pytorch.org/)
 
 ###腾讯的图片修复项目
 问题：pip install basicsr很慢卡住了？
@@ -40,12 +47,13 @@ pip install --upgrade "tensorflow[and-cuda]"  # TF ≥2.15 推荐
 ####还有一个坑，就是需要先安装pytorch,否则还是会卡死
 pip install torch torchvision
 
-# 先确保构建工具最新
+### 先确保构建工具最新
 pip install -U pip setuptools wheel
 
-# 强制使用 PEP-517 安装
+### 强制使用 PEP-517 安装
+```
 pip install --use-pep517 basicsr --verbose
-
+```
 网速太慢的话可以使用proxychains工具
 
 运行该项目时还有一个问题：
@@ -58,6 +66,6 @@ pip install --use-pep517 basicsr --verbose
 from torchvision.transforms.functional_tensor import rgb_to_grayscale
 改成
 from torchvision.transforms.functional import rgb_to_grayscale
-
+```
 
 

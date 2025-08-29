@@ -1,6 +1,6 @@
 +++
 title = '安装CUDA'
-date = 2025-08-29T02:57:18+08:00
+date = 2025Y-08M-29D
 draft = false
 +++
 

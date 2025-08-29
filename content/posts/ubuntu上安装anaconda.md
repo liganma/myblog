@@ -24,7 +24,8 @@ sudo dpkg --configure -a
 再重新安装
 sudo ubuntu-drivers autoinstall
 ```
-###安装cudnn
+### 安装cudnn
+
 [官网]（https://developer.nvidia.com/cudnn-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=24.04&target_type=deb_local&Configuration=Full）
 
 
@@ -36,11 +37,11 @@ tensorflow-gpu 这个包 在 2.11 之后就被官方废弃了
 # 安装官方 GPU 版（会自动拉 CUDA/cuDNN 运行时）
 pip install --upgrade "tensorflow[and-cuda]"  # TF ≥2.15 推荐
 ```
-###安装pytorch
+### 安装pytorch
 
 [pytorch官wang](https://pytorch.org/)
 
-###腾讯的图片修复项目
+### 腾讯的图片修复项目
 问题：pip install basicsr很慢卡住了？
 打开调试模式看具体卡哪：pip install --verbose basicsr
 发现应该改用 PEP-517 方式安装
